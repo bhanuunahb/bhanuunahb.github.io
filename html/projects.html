@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css"> 
     <link rel="icon" type="image/png" href="../images/favicon.ico">
-    <title>Bhanu Arya</title>
-    <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-	  background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
+    <title>Shubhi Tyagi</title>
 </head>
 <body>
 
@@ -26,12 +17,14 @@
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a href="../index.html" class="navbar-brand">Bhanu Arya</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="navbar-brand">Shubhi Tyagi</a>
         </div>
         <div class="collapse navbar-collapse" id="collapsemenu">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a  href="html/projects.html"><i class="fa fa-list-alt" aria-hidden="true"></i> Projects</a></li>
+                <li class="active"><a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i> Projects</a></li>
                 <li><a href="../html/interests.html"><i class="fa fa-language" aria-hidden="true"></i> Interests</a></li>
                 <li><a href="../html/hobbies.html"><i class="fa fa-heart"></i> Hobbies</a></li>
             </ul>
@@ -39,34 +32,44 @@
     </div>
 </nav>
 
-    <div class="container">
-        <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <small>Someone famous <cite title="Source Title">Source Title</cite></small>
-        </blockquote>
-        <!--<h2 class="page-header">I love to capture moments</h2>-->
-        <legend>Here are some of my projects</legend>
-        <div class="panel-group">
-                <div class="panel panel-default">
-                    <div class="panel-heading bold">Rich Text Format (RTF) Parser</div>
-                    <div class="panel-body">The objective of this project was to build a parser for RTF documents from scratch for providing modules for reusability, searching and other forms of data analysis of unstructured data. It extracted sections from a given RTF document including the metadata. The biggest obstacle in this parser was to extract accurately complex tables which had multiple and irregular row spanning and column spanning. Further after data extraction Text Analytics was applied for auto-identification and annotation of useful entities in the text (like organization name, country, report name, etc.) using JAPE coding and GATE. After this the documents were indexed using Apache SOLR with priority boost given to specific extracted fields. Finally combining all of this a search engine was deployed to extract useful data wished by the user from a repository of a million documents and display the relevant statistics and data in decreasing order of precedence.  It is used by Underwriters Laboratories to extract and analyze their collection of data of over 100 years.</div>
-                    <div class="panel-footer"><span class="label label-primary">GATE</span> <span class="label label-primary">JAPE</span>    <span class="label label-primary">Apache SOLR</span> <span class="label label-primary">JAVA</span></div>
-                </div>
-                <br>
-                <div class="panel panel-default">
-                    <div class="panel-heading">Project Name</div>
-                    <div class="panel-body">Panel Description</div>
-                    <div class="panel-footer">Technologies Used</div>
-                </div>
-                <br>
-                <div class="panel panel-default">
-                    <div class="panel-heading">Project Name</div>
-                    <div class="panel-body">Panel Description</div>
-                    <div class="panel-footer">Technologies Used</div>
-                </div>
-                <br>
+<div class="container">
+    <blockquote class="text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+    </blockquote>
+    <legend>Here are some of my projects</legend>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading bold">Rich Text Format (RTF) Parser</div>
+            <div class="panel-body">
+                <p>The objective of this project was to build a parser for RTF documents from scratch for providing modules for reusability, searching and other forms of data analysis of unstructured data. It extracted sections from a given RTF document including the metadata. The biggest obstacle in this parser was to extract accurately complex tables which had multiple and irregular row spanning and column spanning. Further after data extraction Text Analytics was applied for auto-identification and annotation of useful entities in the text (like organization name, country, report name, etc.) using JAPE coding and GATE. After this the documents were indexed using Apache SOLR with priority boost given to specific extracted fields. Finally combining all of this a search engine was deployed to extract useful data wished by the user from a repository of a million documents and display the relevant statistics and data in decreasing order of precedence.  It is used by Underwriters Laboratories to extract and analyze their collection of data of over 100 years.
+                </p>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-primary">GATE</span>&nbsp;&nbsp;
+                <span class="label label-primary">JAPE</span>&nbsp;&nbsp;
+                <span class="label label-primary">Apache SOLR</span>&nbsp;&nbsp;
+                <span class="label label-primary">Java</span>
+            </div>
         </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">Project Name</div>
+            <div class="panel-body">
+                <p>Project Description
+                </p>
+            </div>
+            <div class="panel-footer">Technologies Used</div>
+        </div>
+        <br>
     </div>
-     
-    </body>
+</div>  
+<footer class="text-center">
+    <a type="button" href="https://in.linkedin.com/in/shubhi-tyagi-425426ab" class="btn btn-primary btn-circle"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;
+    <a type="button" href="https://www.hackerearth.com/@shubhi18" class="btn btn-primary btn-circle"><i class="fa fa-h-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
+    <a type="button" href="mailto:tyagi.shubhi@yahoo.com" class="btn btn-primary btn-circle"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;&nbsp;
+    <span class="label label-default">© Shubhi Tyagi 2016</span>
+</footer>
+    
+</body>
 </html>

@@ -1,21 +1,30 @@
-.navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
 
-.content{
-    padding-top: 50px;
-}
 
 .container{
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.welcome{
-    padding-top: 35px;
-    padding-bottom: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
 }
 
+footer {
+    background-color: grey;
+    height: 50px;
+    padding: 10px;
+}
+
+.pixoto{
+    padding-bottom: 20px;
+}
+
+.panel-heading a{
+    text-decoration:none;
+}
