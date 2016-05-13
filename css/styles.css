@@ -15,20 +15,11 @@
   border-radius: 15px;
 }
 
-footer {
-    background-color: darkgray;
-    height: 50px;
-    padding: 10px;
-}
 
+/*adding padding for the link*/
 .pixoto{
     padding-bottom: 20px;
 }
-
-.panel-heading a{
-    text-decoration:none;
-}
-
 
 /* Nav Menu item */
 .navbar-default .navbar-nav>li>a {
@@ -40,6 +31,13 @@ footer {
     color: #14253E;
     background-color: white;
 }
+
+/*Nav Menu item selected/focus */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #14253E;
+    background-color: whitesmoke;
+}
+
 
 /*Brand text*/
 .navbar-default .navbar-brand {
@@ -56,7 +54,8 @@ footer {
 /*default nav bar color*/
 .navbar-default {
     background-color: #14253E;
-    border-color: black;
+    border-color: #14253E;
+    border: none;
 }
 
 /*body*/
@@ -64,16 +63,87 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: ##14253E;
+    color: #14253E;
     background-color: white;
 }
 
 
-/*thumbnail*/
+/*thumbnail on homepage*/
 .thumbnail .caption {
     padding-top: none;
     padding-right: 9px;
     padding-bottom: none;
     padding-left: 9px;
     color: #14253E;
+}
+
+/* quotation*/
+blockquote {
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #14253E;
+}
+
+
+/*Title of reviews and projects page*/
+.panel-default>.panel-heading {
+    color: #14253E;
+    background-color: #F5F5F5;
+    border-color: #ddd;
+    font-weight: bold;
+}
+
+
+/*Footer of reviews and projects page*/
+.panel-footer {
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+/*hights tags in projects */
+.label{
+    color: white;
+    background-color: #457B9D;
+}
+
+/* Footer*/
+footer {
+    background-color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+/*used as footer button*/
+.btn-default {
+    color: white;
+    background-color: #14253E;
+    border-color: #ccc;
+}
+
+.btn-default.focus, .btn-default:focus {
+    color: white;
+    background-color: #14253E;
+    border-color: #ccc;
+}
+
+
+.modal-dialog{
+    max-width:800px;
+    width: auto;
+    height: 100%;
+}
+.modal-body{
+    padding: 0px;
+}
+.modal-header{
+    padding: 9px;
+    text-align: center;
+}
+.modal-footer{
+    padding: 5px;
 }
