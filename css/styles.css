@@ -1,10 +1,12 @@
 
-
+/*-------STARTS HERE-----------------------------COMMON CSS---------------------------------*/
 .container{
     padding-left: 50px;
     padding-right: 50px;
 }
 
+
+/*FOR FOOTER BUTTONS*/
 .btn-circle {
   width: 30px;
   height: 30px;
@@ -16,9 +18,10 @@
 }
 
 
-/*adding padding for the link*/
-.pixoto{
-    padding-bottom: 20px;
+
+
+.navbar {
+    margin-bottom: 9px;
 }
 
 /* Nav Menu item */
@@ -68,15 +71,6 @@ body {
 }
 
 
-/*thumbnail on homepage*/
-.thumbnail .caption {
-    padding-top: none;
-    padding-right: 9px;
-    padding-bottom: none;
-    padding-left: 9px;
-    color: #14253E;
-}
-
 /* quotation*/
 blockquote {
     background-color: #F5F5F5;
@@ -111,27 +105,17 @@ blockquote {
     background-color: #457B9D;
 }
 
+
 /* Footer*/
 footer {
-    background-color: white;
+    background-color: #CBCBCB;
     height: 50px;
     padding: 10px;
 }
 
-/*used as footer button*/
-.btn-default {
-    color: white;
-    background-color: #14253E;
-    border-color: #ccc;
-}
 
-.btn-default.focus, .btn-default:focus {
-    color: white;
-    background-color: #14253E;
-    border-color: #ccc;
-}
-
-
+/*-----------------START--------------------------HOBBIES-------------------------------------------------*/
+/*modal*/
 .modal-dialog{
     max-width:800px;
     width: auto;
@@ -147,3 +131,24 @@ footer {
 .modal-footer{
     padding: 5px;
 }
+
+/*thumbnail on homepage*/
+.thumbnail .caption {
+    padding-top: 0px;
+    padding-right: 9px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    color: #14253E;
+}
+
+
+/*adding padding for the link*/
+.pixoto{
+    padding-bottom: 20px;
+}
+
+
+/*-------------------------------------------HOBBIES----------END---------------------------------------*/
+
+
+
