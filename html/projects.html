@@ -40,20 +40,6 @@
     <legend>Here are some of my projects</legend>
     <div class="panel-group">
         <div class="panel panel-default">
-            <div class="panel-heading bold">Rich Text Format (RTF) Parser</div>
-            <div class="panel-body">
-                <p>The objective of this project was to build a parser for RTF documents from scratch for providing modules for reusability, searching and other forms of data analysis of unstructured data. It extracted sections from a given RTF document including the metadata. The biggest obstacle in this parser was to extract accurately complex tables which had multiple and irregular row spanning and column spanning. Further after data extraction Text Analytics was applied for auto-identification and annotation of useful entities in the text (like organization name, country, report name, etc.) using JAPE coding and GATE. After this the documents were indexed using Apache SOLR with priority boost given to specific extracted fields. Finally combining all of this a search engine was deployed to extract useful data wished by the user from a repository of a million documents and display the relevant statistics and data in decreasing order of precedence.  It is used by Underwriters Laboratories to extract and analyze their collection of data of over 100 years.
-                </p>
-            </div>
-            <div class="panel-footer">
-                <span class="label label-primary">GATE</span>&nbsp;&nbsp;
-                <span class="label label-primary">JAPE</span>&nbsp;&nbsp;
-                <span class="label label-primary">Apache SOLR</span>&nbsp;&nbsp;
-                <span class="label label-primary">Java</span>
-            </div>
-        </div>
-        <br>
-        <div class="panel panel-default">
             <div class="panel-heading">Handwritten Digit Recognition </div>
             <div class="panel-body">
                 <p>This project was my first of my deep neural networks implementations. Its uses the MNIST data set of 70,000 images as training data, validation data and testing data. This neural network uses the pixels of an image as its input layer and learns the appropriate weights and biases using Backpropogation algorithm and Gradient Descent. 
@@ -64,6 +50,32 @@
             <div class="panel-footer">
                 <span class="label label-primary">Python</span>&nbsp;&nbsp;
                 <span class="label label-primary">NumPy</span>&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">Movie Recommender System </div>
+            <div class="panel-body">
+                <p>This project uses machine learning techniques to learn the preferences of consumers with respect to the Movie industry. It uses a set of movie reviewers who have rated a list of movies and other metadata of a particular movie such as the genre, director, lead cast etc. as training set. It analyses the preferences of the test user and suggests him/her a list of movies they are most likely to like and a list of fellow users who have a taste similar to them. This project is based on the statistical analysis of the training data calculating the correlation between different reviewers and also between movies. Higher the correlation coefficient more likely it is for the users to like the movie or share similar tastes with other reviewers.
+                </p>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-primary">JAVA</span>&nbsp;&nbsp;
+                <span class="label label-primary">Guava</span>&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading bold">Rich Text Format (RTF) Parser</div>
+            <div class="panel-body">
+                <p>The objective of this project was to build a parser for RTF documents from scratch for providing modules for reusability, searching and other forms of data analysis of unstructured data. It extracted sections from a given RTF document including the metadata. The biggest obstacle in this parser was to extract accurately complex tables which had multiple and irregular row spanning and column spanning. Further after data extraction Text Analytics was applied for auto-identification and annotation of useful entities in the text (like organization name, country, report name, etc.) using JAPE coding and GATE. After this the documents were indexed using Apache SOLR with priority boost given to specific extracted fields. Finally combining all of this a search engine was deployed to extract useful data wished by the user from a repository of a million documents and display the relevant statistics and data in decreasing order of precedence.  It is used by Underwriters Laboratories to extract and analyze their collection of data of over 100 years.
+                </p>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-primary">GATE</span>&nbsp;&nbsp;
+                <span class="label label-primary">JAPE</span>&nbsp;&nbsp;
+                <span class="label label-primary">Apache SOLR</span>&nbsp;&nbsp;
+                <span class="label label-primary">Java</span>
             </div>
         </div>
         <br>
